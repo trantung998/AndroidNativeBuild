@@ -1,0 +1,220 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D (void);
+extern void WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2 (void);
+extern void WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C (void);
+extern void WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507 (void);
+extern void WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162 (void);
+extern void WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454 (void);
+extern void WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100 (void);
+extern void WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92 (void);
+extern void WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475 (void);
+extern void WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64 (void);
+extern void WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E (void);
+extern void WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F (void);
+extern void WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE (void);
+extern void WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4 (void);
+extern void WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B (void);
+extern void WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C370809DCD79C1E (void);
+extern void WheelCollider_get_center_mE21895BF5F8C9C2523B9468B2C9DA88737A4E163 (void);
+extern void WheelCollider_set_center_m734D85FB64BF40A15DB24954792FCD177D4148BB (void);
+extern void WheelCollider_get_radius_m68CC3DE301E0C6226E85F99D853365DA1244CD1F (void);
+extern void WheelCollider_set_radius_m43AA4113465733E26DD8B01774C9AD6C32424184 (void);
+extern void WheelCollider_get_suspensionDistance_mD1EE97B03FB1E744BCF24DC988806F52AE98A55F (void);
+extern void WheelCollider_set_suspensionDistance_mED5D19A954DD3C7030B4D336466BF0EA1BB20348 (void);
+extern void WheelCollider_get_suspensionSpring_m046582E587BF5AC228C2022D25A822BC4B4B9543 (void);
+extern void WheelCollider_set_suspensionSpring_m2E4ACAB8BE03081A58E217DAE84819CFA51A82B7 (void);
+extern void WheelCollider_get_forceAppPointDistance_m1747E5D2D20CA6BE0C1A22086F64DC5BAC6FFC76 (void);
+extern void WheelCollider_set_forceAppPointDistance_m115F21BA7FB72B5006506B77F12DE97E4E497CDB (void);
+extern void WheelCollider_get_mass_mD45E3CDD818D42BE6FD1AFC9EB8B3993F36F2628 (void);
+extern void WheelCollider_set_mass_mD6C319FDA15773358ACC232179C404D16938468E (void);
+extern void WheelCollider_get_wheelDampingRate_m0BAF4121AC0CBC647F171E7EC7CE599D698733D0 (void);
+extern void WheelCollider_set_wheelDampingRate_mAE9252CADFC480A8CCE089424C86B17261FC4505 (void);
+extern void WheelCollider_get_forwardFriction_mB0B8AB7668623F8646FFB1E6CD81E540B6EE51B0 (void);
+extern void WheelCollider_set_forwardFriction_m1932872F22DD4D5584C0D14FBDCD56848F111510 (void);
+extern void WheelCollider_get_sidewaysFriction_m7924ABBBB268B7F1FD8630733B6375CAFC2621E8 (void);
+extern void WheelCollider_set_sidewaysFriction_mB2062696F29B4275C7F5B2874FD333ECD2325DA8 (void);
+extern void WheelCollider_get_motorTorque_m2DDC12B29636466D0A818AE6C324E5FA586A253F (void);
+extern void WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8 (void);
+extern void WheelCollider_get_brakeTorque_mEE588755CF490EE5274CE0AD385D6F7CACB46FFF (void);
+extern void WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB (void);
+extern void WheelCollider_get_steerAngle_mF0A004554F1509F1DA233AC71A7A2C9C36CC9EE5 (void);
+extern void WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3 (void);
+extern void WheelCollider_get_center_Injected_m5F830D14320A88078EF056E5D83599CCD023D6F5 (void);
+extern void WheelCollider_set_center_Injected_mB0BF5FBEBA1EE28BF7B8E788D1FC39EABACDEECC (void);
+extern void WheelCollider_get_suspensionSpring_Injected_mDFEF80392DFDA3DDCD0B19BFE18F34D229AE22FB (void);
+extern void WheelCollider_set_suspensionSpring_Injected_m5A1DA63E7226CBB700642005FC0C23C40406482F (void);
+extern void WheelCollider_get_forwardFriction_Injected_mB8145EF60E5E0CFB03E4374DA9622192F657D0F2 (void);
+extern void WheelCollider_set_forwardFriction_Injected_mB3FA9425FEC0B0217C2A3EB62FCBF4DBA278C205 (void);
+extern void WheelCollider_get_sidewaysFriction_Injected_m18A6CB2191D1CE62B131E11BFB5308F8A9C6FCD1 (void);
+extern void WheelCollider_set_sidewaysFriction_Injected_mFE019F748A809846714267E3AA9DB8C49616A1A9 (void);
+static Il2CppMethodPointer s_methodPointers[48] = 
+{
+	WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D,
+	WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2,
+	WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C,
+	WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507,
+	WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162,
+	WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454,
+	WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100,
+	WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92,
+	WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475,
+	WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64,
+	WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E,
+	WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F,
+	WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE,
+	WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4,
+	WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B,
+	WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C370809DCD79C1E,
+	WheelCollider_get_center_mE21895BF5F8C9C2523B9468B2C9DA88737A4E163,
+	WheelCollider_set_center_m734D85FB64BF40A15DB24954792FCD177D4148BB,
+	WheelCollider_get_radius_m68CC3DE301E0C6226E85F99D853365DA1244CD1F,
+	WheelCollider_set_radius_m43AA4113465733E26DD8B01774C9AD6C32424184,
+	WheelCollider_get_suspensionDistance_mD1EE97B03FB1E744BCF24DC988806F52AE98A55F,
+	WheelCollider_set_suspensionDistance_mED5D19A954DD3C7030B4D336466BF0EA1BB20348,
+	WheelCollider_get_suspensionSpring_m046582E587BF5AC228C2022D25A822BC4B4B9543,
+	WheelCollider_set_suspensionSpring_m2E4ACAB8BE03081A58E217DAE84819CFA51A82B7,
+	WheelCollider_get_forceAppPointDistance_m1747E5D2D20CA6BE0C1A22086F64DC5BAC6FFC76,
+	WheelCollider_set_forceAppPointDistance_m115F21BA7FB72B5006506B77F12DE97E4E497CDB,
+	WheelCollider_get_mass_mD45E3CDD818D42BE6FD1AFC9EB8B3993F36F2628,
+	WheelCollider_set_mass_mD6C319FDA15773358ACC232179C404D16938468E,
+	WheelCollider_get_wheelDampingRate_m0BAF4121AC0CBC647F171E7EC7CE599D698733D0,
+	WheelCollider_set_wheelDampingRate_mAE9252CADFC480A8CCE089424C86B17261FC4505,
+	WheelCollider_get_forwardFriction_mB0B8AB7668623F8646FFB1E6CD81E540B6EE51B0,
+	WheelCollider_set_forwardFriction_m1932872F22DD4D5584C0D14FBDCD56848F111510,
+	WheelCollider_get_sidewaysFriction_m7924ABBBB268B7F1FD8630733B6375CAFC2621E8,
+	WheelCollider_set_sidewaysFriction_mB2062696F29B4275C7F5B2874FD333ECD2325DA8,
+	WheelCollider_get_motorTorque_m2DDC12B29636466D0A818AE6C324E5FA586A253F,
+	WheelCollider_set_motorTorque_m4958AAF7D867CF7570420F9BAFAF04DC904F02A8,
+	WheelCollider_get_brakeTorque_mEE588755CF490EE5274CE0AD385D6F7CACB46FFF,
+	WheelCollider_set_brakeTorque_mB9B216C57C275470907C7DB35185E2F192DC8DAB,
+	WheelCollider_get_steerAngle_mF0A004554F1509F1DA233AC71A7A2C9C36CC9EE5,
+	WheelCollider_set_steerAngle_m7BF83B27D8956355F873537939BE9F35CF3113C3,
+	WheelCollider_get_center_Injected_m5F830D14320A88078EF056E5D83599CCD023D6F5,
+	WheelCollider_set_center_Injected_mB0BF5FBEBA1EE28BF7B8E788D1FC39EABACDEECC,
+	WheelCollider_get_suspensionSpring_Injected_mDFEF80392DFDA3DDCD0B19BFE18F34D229AE22FB,
+	WheelCollider_set_suspensionSpring_Injected_m5A1DA63E7226CBB700642005FC0C23C40406482F,
+	WheelCollider_get_forwardFriction_Injected_mB8145EF60E5E0CFB03E4374DA9622192F657D0F2,
+	WheelCollider_set_forwardFriction_Injected_mB3FA9425FEC0B0217C2A3EB62FCBF4DBA278C205,
+	WheelCollider_get_sidewaysFriction_Injected_m18A6CB2191D1CE62B131E11BFB5308F8A9C6FCD1,
+	WheelCollider_set_sidewaysFriction_Injected_mFE019F748A809846714267E3AA9DB8C49616A1A9,
+};
+extern void WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D_AdjustorThunk (void);
+extern void WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2_AdjustorThunk (void);
+extern void WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C_AdjustorThunk (void);
+extern void WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507_AdjustorThunk (void);
+extern void WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162_AdjustorThunk (void);
+extern void WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454_AdjustorThunk (void);
+extern void WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100_AdjustorThunk (void);
+extern void WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92_AdjustorThunk (void);
+extern void WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475_AdjustorThunk (void);
+extern void WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64_AdjustorThunk (void);
+extern void WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E_AdjustorThunk (void);
+extern void WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F_AdjustorThunk (void);
+extern void WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE_AdjustorThunk (void);
+extern void WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4_AdjustorThunk (void);
+extern void WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B_AdjustorThunk (void);
+extern void WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C370809DCD79C1E_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] = 
+{
+	{ 0x06000001, WheelHit_get_collider_m6E4EC72042B62AE08340187AD82D6B8FEF8DE09D_AdjustorThunk },
+	{ 0x06000002, WheelHit_set_collider_m661F87C36616207CF90615A16C102A6124EB15B2_AdjustorThunk },
+	{ 0x06000003, WheelHit_get_point_m9F7E614D1E1C6BAAF3392D3E21FF98FB9C9E370C_AdjustorThunk },
+	{ 0x06000004, WheelHit_set_point_m6FE90840F9AC30F65E5E9DF4561BC4146D60E507_AdjustorThunk },
+	{ 0x06000005, WheelHit_get_normal_mD59C9DB64546E22ADE3CA24DEE638F6F8168F162_AdjustorThunk },
+	{ 0x06000006, WheelHit_set_normal_m2A9BD0A7000CC5101129402A92AA2589C65F8454_AdjustorThunk },
+	{ 0x06000007, WheelHit_get_forwardDir_mEC17414DD098E3BB4080E356221BB5655E3E3100_AdjustorThunk },
+	{ 0x06000008, WheelHit_set_forwardDir_m0A02053AD079E33E59E488929C0E84CB07BF6D92_AdjustorThunk },
+	{ 0x06000009, WheelHit_get_sidewaysDir_mF1D87D1AFD314249E2BCC4F7FCD78B03752BD475_AdjustorThunk },
+	{ 0x0600000A, WheelHit_set_sidewaysDir_mA8A9A18917737810ED96C9B7E7BD8E4AA4FD3D64_AdjustorThunk },
+	{ 0x0600000B, WheelHit_get_force_m682670758B8A3054D2A12AE5179625DC1899EA1E_AdjustorThunk },
+	{ 0x0600000C, WheelHit_set_force_m78BDB39182947B9A52424CBA33D2874D61A7232F_AdjustorThunk },
+	{ 0x0600000D, WheelHit_get_forwardSlip_m1BA6AA2379368EFE2200B92AB4CA20F1AD537CCE_AdjustorThunk },
+	{ 0x0600000E, WheelHit_set_forwardSlip_mB96F4BFFC19D83031568E1A1BCF20B1AA61B91A4_AdjustorThunk },
+	{ 0x0600000F, WheelHit_get_sidewaysSlip_m7E27E0B36C1CC096C56B8815B7C1E7D380D6627B_AdjustorThunk },
+	{ 0x06000010, WheelHit_set_sidewaysSlip_m66A9374E3A9F8C12EDD482BC1C370809DCD79C1E_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[48] = 
+{
+	12051,
+	9664,
+	12212,
+	9809,
+	12212,
+	9809,
+	12212,
+	9809,
+	12212,
+	9809,
+	12121,
+	9725,
+	12121,
+	9725,
+	12121,
+	9725,
+	12212,
+	9809,
+	12121,
+	9725,
+	12121,
+	9725,
+	12017,
+	9629,
+	12121,
+	9725,
+	12121,
+	9725,
+	12121,
+	9725,
+	12224,
+	9818,
+	12224,
+	9818,
+	12121,
+	9725,
+	12121,
+	9725,
+	12121,
+	9725,
+	9496,
+	9496,
+	9496,
+	9496,
+	9496,
+	9496,
+	9496,
+	9496,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_VehiclesModule_CodeGenModule;
+const Il2CppCodeGenModule g_UnityEngine_VehiclesModule_CodeGenModule = 
+{
+	"UnityEngine.VehiclesModule.dll",
+	48,
+	s_methodPointers,
+	16,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ink Studio</string>
+
+    <string name="ads_main_network" translatable="false">applovin</string>
+    <!--    <string name="ads_main_network" translatable="false">ironSource</string>-->
+    <string name="APPFLYER_DEV_KEY" translatable="false">55QdbFBhr3gJ2dmQjtiQYT</string>
+    <string name="applovin_sdk_id" translatable="false">k4zcutB4Zm3UzNpe_LApO1CCQU38cBxs1KLXxDwI4B5hApPwBK9Hh39JyuXQBq8V_cFqAxK6uUsMBdpMSz8Nev</string>
+
+    <string name="ggads_id" translatable="false">ca-app-pub-4667689154549040~2924450735</string>
+
+    <!--<string name="admob_openadsid" translatable="false">ca-app-pub-3940256099942544/3419835294</string>-->
+    <string name="admob_openadsid" translatable="false">ca-app-pub-1919652342336147/8227794674</string>
+    <!--    <string name="ggadsmanager_id" translatable="false">ca-app-pub-3880298791450605~2297863536</string>-->
+
+    <string name="applovin_banner_key" translatable="false">95993780682092e1</string>
+    <string name="applovin_inter_key" translatable="false">80d3cfaa69c3e9dc</string>
+    <string name="applovin_videoreward_key" translatable="false">ec79c0bd54828b1e</string>
+    <string name="applovin_native_ads_key" translatable="false">406658f4895ab15d</string>
+    <string name="applovin_mrec_ads_key" translatable="false">94a973a608869447</string>
+    <string name="applovin_native_small">b57ec70473b69d24</string>
+    <string name="applovin_app_open">75b51b6637cbd039</string>
+
+    <string name="banner_position">0</string>
+    <string name="mrec_possition">1</string>
+
+    <!--    Amazone App service-->
+    <string name="aps_app_id">3138fec8-8d27-4e72-b3fd-30f806273464</string>
+    <string name="aps_banner_id">f28fab1b-29ea-4cd0-82f0-309a6056385c</string>
+    <string name="aps_inter_id">528a7dd3-d45a-468a-aa1e-e5fcb48ce8dc</string>
+    <string name="aps_mrec_id"></string>
+
+    <!--    <string name="applovin_MREC_key" translatable="false">e69c905aade68e06</string>-->
+    <!--    <string name="applovin_open_app_ads" translatable="false">da87fbd756ac5494</string>-->
+
+    <string name="facebook_app_id" translatable="false">276217545378653</string>
+    <string name="facebook_client_token" translatable="false">d5c373ec5cbbdc0f3be7e26e02e97311</string>
+
+    <string name="facebook_native_ads_placement_id" translatable="false">192458093559952_203697782435983</string>
+
+    <string name="bugsnag_api_key">01bcd5b75589278fcca78e69f70c6824</string>
+
+</resources>

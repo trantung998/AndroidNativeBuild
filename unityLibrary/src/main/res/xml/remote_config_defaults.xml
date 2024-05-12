@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+    <entry>
+        <key>mrect_native</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>ads_interval</key>
+        <value>5</value>
+    </entry>
+    <entry>
+        <key>resume_ads</key>
+        <value>true</value>
+    </entry>
+</defaults>

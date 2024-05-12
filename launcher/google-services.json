@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749546077411",
+    "project_id": "rev-tatoo-ink",
+    "storage_bucket": "rev-tatoo-ink.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749546077411:android:1cd86a915f16780f3b99d6",
+        "android_client_info": {
+          "package_name": "com.ink.tattoo.asmr.drawing.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV2Hy7_qxwxAzx3NwPvnSO2LW-6wYhL84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity.androidnotifications.test" >
+4
+5    <uses-sdk
+5-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:5:5-74
+6        android:minSdkVersion="22"
+6-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:5:15-41
+7        android:targetSdkVersion="22" />
+7-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:5:42-71
+8
+9    <instrumentation
+9-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:11:5-15:85
+10        android:name="android.test.InstrumentationTestRunner"
+10-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:11:22-75
+11        android:functionalTest="false"
+11-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:14:22-52
+12        android:handleProfiling="false"
+12-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:13:22-53
+13        android:label="Tests for com.unity.androidnotifications.test"
+13-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:15:22-83
+14        android:targetPackage="com.unity.androidnotifications.test" />
+14-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:12:22-81
+15
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-77
+16-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-74
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-81
+17-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-78
+18    <uses-permission
+18-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-11:38
+19        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+19-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-63
+20        android:maxSdkVersion="32" />
+20-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-35
+21    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+21-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-74
+21-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-71
+22
+23    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+23-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-102
+23-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:29-99
+24
+25    <application android:debuggable="true" >
+25-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:7:5-9:19
+26        <uses-library android:name="android.test.runner" />
+26-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:8:9-60
+26-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest11435651965748942930.xml:8:23-57
+27
+28        <receiver
+28-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-19:40
+29            android:name="com.unity.androidnotifications.UnityNotificationManager"
+29-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-83
+30            android:exported="false" />
+30-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+31        <receiver
+31-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-27:20
+32            android:name="com.unity.androidnotifications.UnityNotificationRestartReceiver"
+32-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-91
+33            android:enabled="false"
+33-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-36
+34            android:exported="false" >
+34-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+35            <intent-filter>
+35-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+36                <action android:name="android.intent.action.BOOT_COMPLETED" />
+36-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-79
+36-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-76
+37            </intent-filter>
+38        </receiver>
+39
+40        <meta-data
+40-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-31:33
+41            android:name="com.unity.androidnotifications.exact_scheduling"
+41-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-75
+42            android:value="1" />
+42-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-30
+43        <meta-data
+43-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-34:36
+44            android:name="reschedule_notifications_on_restart"
+44-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-63
+45            android:value="true" />
+45-->[:unityLibrary:mobilenotifications.androidlib] E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-33
+46    </application>
+47
+48</manifest>

@@ -1,0 +1,6 @@
+com.unity.androidnotifications.test.mobilenotifications.androidlib-androidTest-0 E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\generated\res\resValues\androidTest\debug
+com.unity.androidnotifications.test.mobilenotifications.androidlib-androidTest-1 E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\generated\res\rs\androidTest\debug
+com.unity.androidnotifications.test.mobilenotifications.androidlib-mergeDebugAndroidTestResources-2 E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.unity.androidnotifications.test.mobilenotifications.androidlib-mergeDebugAndroidTestResources-3 E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.unity.androidnotifications.test.mobilenotifications.androidlib-merged_res-4 E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\merged_res\debugAndroidTest
+com.unity.androidnotifications.test.mobilenotifications.androidlib-packaged_res-5 E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\build\intermediates\packaged_res\debug

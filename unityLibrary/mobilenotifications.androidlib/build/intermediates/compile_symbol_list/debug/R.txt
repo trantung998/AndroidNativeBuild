@@ -1,0 +1,2 @@
+int drawable icon_0 0x0
+int drawable icon_1 0x0
