@@ -3,64 +3,58 @@
 3    package="com.unity.androidnotifications" >
 4
 5    <uses-sdk android:minSdkVersion="22" />
-5-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml
+5-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml
 6
 7    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-7-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:12:3-75
-7-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:12:20-72
+7-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:12:3-75
+7-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:12:20-72
 8    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-8-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:13:3-79
-8-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:13:20-76
-9    <uses-permission
-9-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:3-104
-10        android:name="android.permission.SCHEDULE_EXACT_ALARM"
-10-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:20-74
-11        android:maxSdkVersion="32" />
-11-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:75-101
-12    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
-12-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:15:3-72
-12-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:15:20-69
-13
-14    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-14-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:16:3-100
-14-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:16:27-97
-15
-16    <application>
-16-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:2:3-11:17
+8-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:13:3-79
+8-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:13:20-76
+9    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+9-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:3-77
+9-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:14:20-74
+10
+11    <uses-permission-sdk-23 android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+11-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:15:3-100
+11-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:15:27-97
+12
+13    <application>
+13-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:2:3-11:17
+14        <receiver
+14-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:5-113
+15            android:name="com.unity.androidnotifications.UnityNotificationManager"
+15-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:15-85
+16            android:exported="false" />
+16-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:86-110
 17        <receiver
-17-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:5-113
-18            android:name="com.unity.androidnotifications.UnityNotificationManager"
-18-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:15-85
-19            android:exported="false" />
-19-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:3:86-110
-20        <receiver
-20-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:5-8:16
-21            android:name="com.unity.androidnotifications.UnityNotificationRestartReceiver"
-21-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:15-93
-22            android:enabled="false"
-22-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:94-117
-23            android:exported="false" >
-23-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:118-142
-24            <intent-filter>
-24-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:5:7-7:23
-25                <action android:name="android.intent.action.BOOT_COMPLETED" />
-25-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:6:9-71
-25-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:6:17-68
-26            </intent-filter>
-27        </receiver>
-28
+17-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:5-8:16
+18            android:name="com.unity.androidnotifications.UnityNotificationRestartReceiver"
+18-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:15-93
+19            android:enabled="false"
+19-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:94-117
+20            android:exported="false" >
+20-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:4:118-142
+21            <intent-filter>
+21-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:5:7-7:23
+22                <action android:name="android.intent.action.BOOT_COMPLETED" />
+22-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:6:9-71
+22-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:6:17-68
+23            </intent-filter>
+24        </receiver>
+25
+26        <meta-data
+26-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:5-99
+27            android:name="com.unity.androidnotifications.exact_scheduling"
+27-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:16-78
+28            android:value="1" />
+28-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:79-96
 29        <meta-data
-29-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:5-99
-30            android:name="com.unity.androidnotifications.exact_scheduling"
-30-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:16-78
-31            android:value="1" />
-31-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:9:79-96
-32        <meta-data
-32-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:5-90
-33            android:name="reschedule_notifications_on_restart"
-33-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:16-66
-34            android:value="true" />
-34-->E:\AndroidBuild_Ver2022\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:67-87
-35    </application>
-36
-37</manifest>
+29-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:5-90
+30            android:name="reschedule_notifications_on_restart"
+30-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:16-66
+31            android:value="true" />
+31-->E:\AndroidNativeBuild\unityLibrary\mobilenotifications.androidlib\src\main\AndroidManifest.xml:10:67-87
+32    </application>
+33
+34</manifest>
