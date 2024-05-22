@@ -1,4 +1,0 @@
-R_DEF: Internal format may change without notice
-local
-drawable icon_0
-drawable icon_1

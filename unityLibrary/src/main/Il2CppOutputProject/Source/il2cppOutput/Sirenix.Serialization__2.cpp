@@ -7308,14 +7308,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachedMemoryStream_OnFreed_m7404240E4CE2
 	{
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_0 = __this->___memoryStream;
 		NullCheck(L_0);
-		VirtualActionInvoker1< int64_t >::Invoke(30, L_0, ((int64_t)0));
+		VirtualActionInvoker1< int64_t >::Invoke(31, L_0, ((int64_t)0));
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_1 = __this->___memoryStream;
 		NullCheck(L_1);
 		VirtualActionInvoker1< int64_t >::Invoke(13, L_1, ((int64_t)0));
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_2 = __this->___memoryStream;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(38, L_2);
+		L_3 = VirtualFuncInvoker0< int32_t >::Invoke(39, L_2);
 		il2cpp_codegen_runtime_class_init_inline(CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3_il2cpp_TypeInfo_var);
 		int32_t L_4 = ((CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3_StaticFields*)il2cpp_codegen_static_fields_for(CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3_il2cpp_TypeInfo_var))->___MaxCapacity;
 		if ((((int32_t)L_3) <= ((int32_t)L_4)))
@@ -7328,7 +7328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachedMemoryStream_OnFreed_m7404240E4CE2
 		il2cpp_codegen_runtime_class_init_inline(CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3_il2cpp_TypeInfo_var);
 		int32_t L_6 = ((CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3_StaticFields*)il2cpp_codegen_static_fields_for(CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3_il2cpp_TypeInfo_var))->___MaxCapacity;
 		NullCheck(L_5);
-		VirtualActionInvoker1< int32_t >::Invoke(39, L_5, L_6);
+		VirtualActionInvoker1< int32_t >::Invoke(40, L_5, L_6);
 	}
 
 IL_003c:
@@ -7341,7 +7341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CachedMemoryStream_OnClaimed_m23C621A42A
 	{
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_0 = __this->___memoryStream;
 		NullCheck(L_0);
-		VirtualActionInvoker1< int64_t >::Invoke(30, L_0, ((int64_t)0));
+		VirtualActionInvoker1< int64_t >::Invoke(31, L_0, ((int64_t)0));
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_1 = __this->___memoryStream;
 		NullCheck(L_1);
 		VirtualActionInvoker1< int64_t >::Invoke(13, L_1, ((int64_t)0));
@@ -7371,7 +7371,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Cache_1_tBABF76E37486717F2DAC69A945EA2A71A8DC
 		L_3 = CachedMemoryStream_get_MemoryStream_m32BBA92BF8ABFEDFF1BB208BB10F568EC65B77AC(L_2, NULL);
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(38, L_3);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(39, L_3);
 		int32_t L_5 = ___0_minCapacity;
 		if ((((int32_t)L_4) >= ((int32_t)L_5)))
 		{
@@ -7387,7 +7387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Cache_1_tBABF76E37486717F2DAC69A945EA2A71A8DC
 		L_8 = CachedMemoryStream_get_MemoryStream_m32BBA92BF8ABFEDFF1BB208BB10F568EC65B77AC(L_7, NULL);
 		int32_t L_9 = ___0_minCapacity;
 		NullCheck(L_8);
-		VirtualActionInvoker1< int32_t >::Invoke(39, L_8, L_9);
+		VirtualActionInvoker1< int32_t >::Invoke(40, L_8, L_9);
 	}
 
 IL_002a:
@@ -7428,7 +7428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Cache_1_tBABF76E37486717F2DAC69A945EA2A71A8DC
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = ___0_bytes;
 		NullCheck(L_6);
 		NullCheck(L_4);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_4, L_5, 0, ((int32_t)(((RuntimeArray*)L_6)->max_length)));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_4, L_5, 0, ((int32_t)(((RuntimeArray*)L_6)->max_length)));
 		Cache_1_tBABF76E37486717F2DAC69A945EA2A71A8DCEC8E* L_7 = V_0;
 		NullCheck(L_7);
 		CachedMemoryStream_t39C2912B44A990921E3ADA2BE147D55A7B1FA7A3* L_8 = L_7->___Value;
@@ -22007,7 +22007,7 @@ IL_0036:
 			L_11 = CachedMemoryStream_get_MemoryStream_m32BBA92BF8ABFEDFF1BB208BB10F568EC65B77AC(L_10, NULL);
 			NullCheck(L_11);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12;
-			L_12 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_11);
+			L_12 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_11);
 			V_1 = L_12;
 			goto IL_0037;
 		}
@@ -22085,7 +22085,7 @@ IL_0037:
 			L_11 = CachedMemoryStream_get_MemoryStream_m32BBA92BF8ABFEDFF1BB208BB10F568EC65B77AC(L_10, NULL);
 			NullCheck(L_11);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12;
-			L_12 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_11);
+			L_12 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_11);
 			V_1 = L_12;
 			goto IL_0038;
 		}

@@ -1,3 +1,0 @@
-com.unity.androidnotifications
-drawable icon_0
-drawable icon_1

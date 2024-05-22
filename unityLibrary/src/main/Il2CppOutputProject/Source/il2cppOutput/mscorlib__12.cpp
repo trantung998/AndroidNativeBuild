@@ -1920,6 +1920,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SHA1Managed_SHAExpand_m6A9B2E025F25FD489
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsymmetricKeyExchangeDeformatter__ctor_m380D896B8A41A7B01A6326302FF20D89A333ABD2 (AsymmetricKeyExchangeDeformatter_t4D630FDC76BD49BF9C8588A364C96D6B1450C400* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsymmetricKeyExchangeFormatter__ctor_m03C4DA1815F63CDB03A18DD3789AD25A54AC0615 (AsymmetricKeyExchangeFormatter_tBD590D117D0B38C5930DBB10A8D5B0C0D8BB8192* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsymmetricSignatureDeformatter__ctor_mCBA741552A20E4A9977587050187DE75F1977919 (AsymmetricSignatureDeformatter_tBB96AAAC1F942F159021BF6815E4E9ED0AEB1F3B* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4936,7 +4966,7 @@ IL_005a:
 		int32_t L_13 = ___1_ibStart;
 		int32_t L_14 = ___2_cbSize;
 		NullCheck(L_11);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_11, L_12, L_13, L_14);
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_11, L_12, L_13, L_14);
 		return;
 	}
 }

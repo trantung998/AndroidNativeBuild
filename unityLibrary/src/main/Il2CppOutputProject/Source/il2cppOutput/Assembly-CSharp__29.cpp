@@ -5717,7 +5717,7 @@ IL_0013:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_24;
 		L_24 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(6, L_23);
 		NullCheck(L_24);
-		VirtualActionInvoker1< uint8_t >::Invoke(36, L_24, (uint8_t)((int32_t)102));
+		VirtualActionInvoker1< uint8_t >::Invoke(37, L_24, (uint8_t)((int32_t)102));
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_25 = __this->___m_Writer;
 		NullCheck(L_25);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_26;
@@ -5785,7 +5785,7 @@ IL_0013:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_51;
 		L_51 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(6, L_50);
 		NullCheck(L_51);
-		VirtualActionInvoker1< uint8_t >::Invoke(36, L_51, (uint8_t)((int32_t)103));
+		VirtualActionInvoker1< uint8_t >::Invoke(37, L_51, (uint8_t)((int32_t)103));
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = V_5;
 		NullCheck(L_52);
 		ComponentU5BU5D_t40ECDBC5CC15EA282AF49771C20EBFDADC532D0E* L_53;
@@ -6734,7 +6734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryObjectWriter_WriteProperty_mA8E811
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_1;
 		L_1 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(6, L_0);
 		NullCheck(L_1);
-		VirtualActionInvoker1< uint8_t >::Invoke(36, L_1, (uint8_t)((int32_t)100));
+		VirtualActionInvoker1< uint8_t >::Invoke(37, L_1, (uint8_t)((int32_t)100));
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_2 = __this->___m_Writer;
 		String_t* L_3 = ___0_identifier;
 		NullCheck(L_2);
@@ -6783,7 +6783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryObjectWriter_WriteProperty_mA8E811
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_21;
 		L_21 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(6, L_20);
 		NullCheck(L_21);
-		VirtualActionInvoker1< uint8_t >::Invoke(36, L_21, (uint8_t)((int32_t)101));
+		VirtualActionInvoker1< uint8_t >::Invoke(37, L_21, (uint8_t)((int32_t)101));
 		return;
 	}
 }
@@ -6865,7 +6865,7 @@ IL_003b:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_13;
 		L_13 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(6, L_12);
 		NullCheck(L_13);
-		VirtualActionInvoker1< uint8_t >::Invoke(36, L_13, (uint8_t)((int32_t)102));
+		VirtualActionInvoker1< uint8_t >::Invoke(37, L_13, (uint8_t)((int32_t)102));
 		BinaryWriter_tFB94D67EDFA3F6A34744A163BDABE287FDF2ED1E* L_14 = __this->___m_Writer;
 		NullCheck(L_14);
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_15;
@@ -6914,7 +6914,7 @@ IL_003b:
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_33;
 		L_33 = VirtualFuncInvoker0< Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* >::Invoke(6, L_32);
 		NullCheck(L_33);
-		VirtualActionInvoker1< uint8_t >::Invoke(36, L_33, (uint8_t)((int32_t)103));
+		VirtualActionInvoker1< uint8_t >::Invoke(37, L_33, (uint8_t)((int32_t)103));
 		return;
 	}
 
@@ -10643,7 +10643,7 @@ IL_005b:
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_4;
 			NullCheck(L_12);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13;
-			L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_12);
+			L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_12);
 			V_2 = L_13;
 			goto IL_005c;
 		}
@@ -11977,7 +11977,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SaveGamePlayerPrefsStorage_OnSaved_m977B
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_1 = __this->___m_TempStream;
 		NullCheck(L_1);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
-		L_2 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_1);
+		L_2 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_1);
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		String_t* L_3;
 		L_3 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_2, NULL);

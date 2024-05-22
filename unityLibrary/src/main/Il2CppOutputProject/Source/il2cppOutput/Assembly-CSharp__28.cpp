@@ -334,6 +334,7 @@ struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3;
 struct Thread_t0A773B9DE873D2DCAA7D229EAB36757B500E207F;
 struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
 struct Type_t;
+struct UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1EF05DAF0;
 struct Version_tE426DB5655D0F22920AE16A2AA9AB7781B8255A7;
 struct VerticalLayoutGroup_t06B5E51FC8051BF2009E6494876FBB9F3E5320B8;
 struct VideoClip_t603AD809C228739D932819710E70326FE7A9ADDE;
@@ -1793,6 +1794,10 @@ struct StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B_StaticFields
 struct StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4_StaticFields
 {
 	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___Null;
+};
+struct StringWriter_tF48052BE4F980E5C85403221E835768E4156267D_StaticFields
+{
+	UnicodeEncoding_t2C90D9E1E55C16081FACA57B229053C1EF05DAF0* ___m_encoding;
 };
 struct Type_t_StaticFields
 {
@@ -16190,7 +16195,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonTextWriter_Write_m01A12C4D16CA6E1E77
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_1 = __this->___m_Writer;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_1, _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_1, _stringLiteral5BEFD8CC60A79699B5BB00E37BAC5B62D371E174);
 		return;
 	}
 
@@ -16250,7 +16255,7 @@ IL_0014:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_20 = __this->___m_Writer;
 		NullCheck(L_20);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_20, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_20, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 	}
 
 IL_0079:
@@ -16285,14 +16290,14 @@ IL_0079:
 		GenericVirtualActionInvoker2< String_t*, int32_t >::Invoke(JsonWriter_WriteProperty_TisHideFlags_tC514182ACEFD3B847988C45D5DB812FF6DB1BF4A_m03BCE8DC707DA54D14AD44F37A71F95AC955C1A2_RuntimeMethod_var, __this, _stringLiteralC220E5ABB03B498FA9E8AE08256C71E0C463D910, L_31);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_32 = __this->___m_Writer;
 		NullCheck(L_32);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_32, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_32, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteralF7C03E97995F6950303A46C204A216735E6B4582);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_33 = __this->___m_Writer;
 		NullCheck(L_33);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_33, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_33, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_34 = __this->___m_Writer;
 		NullCheck(L_34);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_34, _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_34, _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_35 = V_4;
 		NullCheck(L_35);
 		ComponentU5BU5D_t40ECDBC5CC15EA282AF49771C20EBFDADC532D0E* L_36;
@@ -16320,18 +16325,18 @@ IL_013a:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_38 = __this->___m_Writer;
 		NullCheck(L_38);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_38, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_38, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 	}
 
 IL_014a:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_39 = __this->___m_Writer;
 		NullCheck(L_39);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_39, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_39, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_40 = __this->___m_Writer;
 		NullCheck(L_40);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_40, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_40, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		ComponentU5BU5D_t40ECDBC5CC15EA282AF49771C20EBFDADC532D0E* L_41 = V_5;
 		int32_t L_42 = V_8;
 		NullCheck(L_41);
@@ -16346,11 +16351,11 @@ IL_014a:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_46);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_47 = __this->___m_Writer;
 		NullCheck(L_47);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_47, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_47, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteral62085E8C55DCED36DF75D38F113376BFB67686BB);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_48 = __this->___m_Writer;
 		NullCheck(L_48);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_48, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_48, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		ComponentU5BU5D_t40ECDBC5CC15EA282AF49771C20EBFDADC532D0E* L_49 = V_5;
 		int32_t L_50 = V_8;
 		NullCheck(L_49);
@@ -16359,7 +16364,7 @@ IL_014a:
 		GenericVirtualActionInvoker1< Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* >::Invoke(JsonWriter_Write_TisComponent_t39FBE53E5EFCF4409111FB22C15FF73717632EC3_mAA88B444D257ED491A128024C548CC2534D509CD_RuntimeMethod_var, __this, L_52);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_53 = __this->___m_Writer;
 		NullCheck(L_53);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_53, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_53, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		int32_t L_54 = V_8;
 		V_8 = ((int32_t)il2cpp_codegen_add(L_54, 1));
 	}
@@ -16377,14 +16382,14 @@ IL_01d6:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_57 = __this->___m_Writer;
 		NullCheck(L_57);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_57, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_57, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_58 = __this->___m_Writer;
 		NullCheck(L_58);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_58, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_58, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteral9723B9968B3493827BC9EB61E5D0E5FA5436CB79);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_59 = __this->___m_Writer;
 		NullCheck(L_59);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_59, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_59, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_60 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
 		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_60, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
 		V_7 = L_60;
@@ -16439,7 +16444,7 @@ IL_0248:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_74 = __this->___m_Writer;
 		NullCheck(L_74);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_74, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_74, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		return;
 	}
 
@@ -16467,7 +16472,7 @@ IL_027c:
 		String_t* L_83;
 		L_83 = JsonExtensions_EscapeStringJson_mB6CEA86AFFF193D496E07D40054A8325F46FAA96(L_82, NULL);
 		NullCheck(L_80);
-		VirtualActionInvoker2< String_t*, RuntimeObject* >::Invoke(16, L_80, _stringLiteral49A5AAB83859C60FC692064F7CA72853E8B6B189, L_83);
+		VirtualActionInvoker2< String_t*, RuntimeObject* >::Invoke(19, L_80, _stringLiteral49A5AAB83859C60FC692064F7CA72853E8B6B189, L_83);
 		return;
 	}
 
@@ -16495,7 +16500,7 @@ IL_02ac:
 		String_t* L_91;
 		L_91 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_90, NULL);
 		NullCheck(L_88);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_88, L_91);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_88, L_91);
 		return;
 	}
 
@@ -16691,7 +16696,7 @@ IL_03ca:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_150 = __this->___m_Writer;
 		NullCheck(L_150);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_150, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_150, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 	}
 
 IL_03ff:
@@ -16699,7 +16704,7 @@ IL_03ff:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteral8AC679DF4E343993A53C3B7F1194873F3F747BAF);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_151 = __this->___m_Writer;
 		NullCheck(L_151);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_151, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_151, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		RuntimeObject* L_152;
 		L_152 = DictionaryEntry_get_Key_m09845C00732E530E6FCB9042079E90D3912215FE_inline((&V_10), NULL);
 		NullCheck(L_152);
@@ -16711,21 +16716,21 @@ IL_03ff:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_154);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_155 = __this->___m_Writer;
 		NullCheck(L_155);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_155, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_155, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteralB720A9AE58815DFF5576319E5228D318E7899C07);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_156 = __this->___m_Writer;
 		NullCheck(L_156);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_156, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_156, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		RuntimeObject* L_157;
 		L_157 = DictionaryEntry_get_Key_m09845C00732E530E6FCB9042079E90D3912215FE_inline((&V_10), NULL);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(12, __this, L_157);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_158 = __this->___m_Writer;
 		NullCheck(L_158);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_158, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_158, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteral26E4962A0942D70D47E70C190643E1ABEE3518F7);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_159 = __this->___m_Writer;
 		NullCheck(L_159);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_159, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_159, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		RuntimeObject* L_160;
 		L_160 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_10), NULL);
 		NullCheck(L_160);
@@ -16737,11 +16742,11 @@ IL_03ff:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_162);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_163 = __this->___m_Writer;
 		NullCheck(L_163);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_163, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_163, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteral86FADB31129B6F40C720A97600D69389EA3567E3);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_164 = __this->___m_Writer;
 		NullCheck(L_164);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_164, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_164, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		RuntimeObject* L_165;
 		L_165 = DictionaryEntry_get_Value_m75FD18FE968AE131F28AA2CB0DF4895EBA39075E_inline((&V_10), NULL);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(12, __this, L_165);
@@ -16754,7 +16759,7 @@ IL_03ff:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_167 = __this->___m_Writer;
 		NullCheck(L_167);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_167, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_167, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		return;
 	}
 
@@ -16792,7 +16797,7 @@ IL_04ff:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_175 = __this->___m_Writer;
 		NullCheck(L_175);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_175, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_175, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 	}
 
 IL_0537:
@@ -16800,7 +16805,7 @@ IL_0537:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteralB720A9AE58815DFF5576319E5228D318E7899C07);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_176 = __this->___m_Writer;
 		NullCheck(L_176);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_176, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_176, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		Type_t* L_177 = V_0;
 		NullCheck(L_177);
 		PropertyInfo_t* L_178;
@@ -16812,11 +16817,11 @@ IL_0537:
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(12, __this, L_180);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_181 = __this->___m_Writer;
 		NullCheck(L_181);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_181, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_181, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, _stringLiteral86FADB31129B6F40C720A97600D69389EA3567E3);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_182 = __this->___m_Writer;
 		NullCheck(L_182);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_182, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_182, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		Type_t* L_183 = V_0;
 		NullCheck(L_183);
 		PropertyInfo_t* L_184;
@@ -16835,7 +16840,7 @@ IL_0537:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_188 = __this->___m_Writer;
 		NullCheck(L_188);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_188, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_188, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		return;
 	}
 
@@ -16861,7 +16866,7 @@ IL_05c9:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_192 = __this->___m_Writer;
 		NullCheck(L_192);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_192, _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_192, _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1);
 		G_B46_0 = G_B45_0;
 	}
 
@@ -16927,7 +16932,7 @@ IL_0615_1:
 			{
 				TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_200 = __this->___m_Writer;
 				NullCheck(L_200);
-				VirtualActionInvoker1< String_t* >::Invoke(15, L_200, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+				VirtualActionInvoker1< String_t* >::Invoke(18, L_200, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 			}
 
 IL_0625_1:
@@ -16968,7 +16973,7 @@ IL_064d:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_205 = __this->___m_Writer;
 		NullCheck(L_205);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_205, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_205, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC);
 		return;
 	}
 
@@ -16993,7 +16998,7 @@ IL_0669:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_209 = __this->___m_Writer;
 		NullCheck(L_209);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_209, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_209, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 	}
 
 IL_0697:
@@ -17062,7 +17067,7 @@ IL_06b9_1:
 			{
 				TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_219 = __this->___m_Writer;
 				NullCheck(L_219);
-				VirtualActionInvoker1< String_t* >::Invoke(15, L_219, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+				VirtualActionInvoker1< String_t* >::Invoke(18, L_219, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 			}
 
 IL_06c9_1:
@@ -17074,7 +17079,7 @@ IL_06c9_1:
 				GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_221);
 				TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_222 = __this->___m_Writer;
 				NullCheck(L_222);
-				VirtualActionInvoker1< String_t* >::Invoke(15, L_222, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+				VirtualActionInvoker1< String_t* >::Invoke(18, L_222, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 				RuntimeObject* L_223 = V_15;
 				RuntimeObject* L_224 = V_18;
 				NullCheck(L_223);
@@ -17115,7 +17120,7 @@ IL_0715:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_229 = __this->___m_Writer;
 		NullCheck(L_229);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_229, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_229, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		return;
 	}
 
@@ -17151,7 +17156,7 @@ IL_0731:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_236 = __this->___m_Writer;
 		NullCheck(L_236);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_236, _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_236, _stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1);
 		goto IL_0796;
 	}
 
@@ -17172,7 +17177,7 @@ IL_0779:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_238 = __this->___m_Writer;
 		NullCheck(L_238);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_238, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_238, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 	}
 
 IL_0789:
@@ -17205,7 +17210,7 @@ IL_0796:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_244 = __this->___m_Writer;
 		NullCheck(L_244);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_244, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_244, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC);
 		return;
 	}
 
@@ -17247,7 +17252,7 @@ IL_0011:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_1 = __this->___m_Writer;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_1, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_1, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 	}
 
 IL_0021:
@@ -17256,7 +17261,7 @@ IL_0021:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_2);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_3 = __this->___m_Writer;
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_3, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_3, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		RuntimeObject* L_4 = ___1_value;
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(12, __this, L_4);
 		return;
@@ -17300,7 +17305,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonTextWriter_WriteObject_m00D2572EA548
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_3 = __this->___m_Writer;
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_3, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_3, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 		G_B3_0 = G_B2_0;
 	}
 
@@ -17320,7 +17325,7 @@ IL_0021:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_5 = __this->___m_Writer;
 		NullCheck(L_5);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_5, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_5, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		return;
 	}
 
@@ -17347,7 +17352,7 @@ IL_0058:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_10 = __this->___m_Writer;
 		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_10, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_10, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 		G_B8_0 = G_B7_0;
 	}
 
@@ -17370,7 +17375,7 @@ IL_0079:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_14 = __this->___m_Writer;
 		NullCheck(L_14);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_14, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_14, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 		return;
 	}
 
@@ -17434,7 +17439,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonTextWriter_WriteSavableMembers_m1BB2
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_1 = __this->___m_Writer;
 		NullCheck(L_1);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_1, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_1, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 	}
 
 IL_001a:
@@ -17454,7 +17459,7 @@ IL_001a:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_7 = __this->___m_Writer;
 		NullCheck(L_7);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_7, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_7, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 	}
 
 IL_0046:
@@ -17504,7 +17509,7 @@ IL_0014:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_5 = __this->___m_Writer;
 		NullCheck(L_5);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_5, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_5, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 	}
 
 IL_0024:
@@ -17520,7 +17525,7 @@ IL_0024:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_9);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_10 = __this->___m_Writer;
 		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_10, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_10, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		List_1_t2EC26D0ED018C658813F1744B58498EF88D4A3C7* L_11 = V_0;
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
@@ -17593,7 +17598,7 @@ IL_0014:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_5 = __this->___m_Writer;
 		NullCheck(L_5);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_5, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_5, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 	}
 
 IL_0024:
@@ -17609,7 +17614,7 @@ IL_0024:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_9);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_10 = __this->___m_Writer;
 		NullCheck(L_10);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_10, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_10, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		List_1_t82D76CC5C6539DFC84C87B271B946836D31F9D1E* L_11 = V_0;
 		int32_t L_12 = V_1;
 		NullCheck(L_11);
@@ -17670,7 +17675,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JsonTextWriter_WriteSerializationInfo_m5
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_3 = __this->___m_Writer;
 		NullCheck(L_3);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_3, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_3, _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A);
 		goto IL_0062;
 	}
 
@@ -17691,7 +17696,7 @@ IL_002a:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_5 = __this->___m_Writer;
 		NullCheck(L_5);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_5, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_5, _stringLiteralC18C9BB6DF0D5C60CE5A5D2D3D6111BEB6F8CCEB);
 	}
 
 IL_003a:
@@ -17703,7 +17708,7 @@ IL_003a:
 		GenericVirtualActionInvoker1< String_t* >::Invoke(JsonWriter_Write_TisString_t_m09118F7117F87A77BEBF1763CF08F63C739FEED2_RuntimeMethod_var, __this, L_7);
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_8 = __this->___m_Writer;
 		NullCheck(L_8);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_8, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_8, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D);
 		SerializationInfoEnumerator_t810DE600E5F6AA4F2B66A7F56074277CCD8F1540* L_9 = V_0;
 		NullCheck(L_9);
 		RuntimeObject* L_10;
@@ -17732,7 +17737,7 @@ IL_0062:
 	{
 		TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3* L_14 = __this->___m_Writer;
 		NullCheck(L_14);
-		VirtualActionInvoker1< String_t* >::Invoke(15, L_14, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
+		VirtualActionInvoker1< String_t* >::Invoke(18, L_14, _stringLiteral4D8D9C94AC5DA5FCED2EC8A64E10E714A2515C30);
 	}
 
 IL_0082:
@@ -18020,7 +18025,7 @@ IL_0026:
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_6 = V_0;
 			NullCheck(L_6);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7;
-			L_7 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_6);
+			L_7 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_6);
 			V_1 = L_7;
 			goto IL_0027;
 		}

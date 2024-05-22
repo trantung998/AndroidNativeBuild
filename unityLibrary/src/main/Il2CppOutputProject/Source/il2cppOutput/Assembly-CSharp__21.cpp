@@ -6865,7 +6865,7 @@ IL_0066:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28;
 		L_28 = SaveGameSettings_get_EncryptionIV_mF87636FDC88B8FCC52B6527D607A32DD69BF0A89_inline((&___2_settings), NULL);
 		NullCheck(L_27);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_27, L_28, 0, ((int32_t)16));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_27, L_28, 0, ((int32_t)16));
 		MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_29 = (MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2*)il2cpp_codegen_object_new(MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2_il2cpp_TypeInfo_var);
 		MemoryStream__ctor_m8F3BAE0B48E65BAA13C52FB020E502B3EA22CA6B(L_29, NULL);
 		V_4 = L_29;
@@ -6908,7 +6908,7 @@ IL_00d6:
 			MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_36 = V_4;
 			NullCheck(L_36);
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37;
-			L_37 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_36);
+			L_37 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_36);
 			V_2 = L_37;
 			goto IL_00d7;
 		}
@@ -6929,7 +6929,7 @@ IL_00d7:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_43 = V_2;
 		NullCheck(L_43);
 		NullCheck(L_41);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_41, L_42, 0, ((int32_t)(((RuntimeArray*)L_43)->max_length)));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_41, L_42, 0, ((int32_t)(((RuntimeArray*)L_43)->max_length)));
 		V_1 = L_41;
 		goto IL_00fc;
 	}
@@ -7093,7 +7093,7 @@ IL_002a:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19;
 		L_19 = SaveGameSettings_get_EncryptionIV_mF87636FDC88B8FCC52B6527D607A32DD69BF0A89_inline((&___2_settings), NULL);
 		NullCheck(L_18);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_18, L_19, 0, ((int32_t)16));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_18, L_19, 0, ((int32_t)16));
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_20 = V_1;
 		RuntimeObject* L_21 = V_2;
 		CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65* L_22 = (CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65*)il2cpp_codegen_object_new(CryptoStream_t8258B5E90AA951C21358547EA7C7BEB444441F65_il2cpp_TypeInfo_var);
@@ -7103,7 +7103,7 @@ IL_002a:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_25 = ___1_value;
 		NullCheck(L_25);
 		NullCheck(L_23);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_23, L_24, 0, ((int32_t)(((RuntimeArray*)L_25)->max_length)));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_23, L_24, 0, ((int32_t)(((RuntimeArray*)L_25)->max_length)));
 		V_1 = L_23;
 		goto IL_0095;
 	}
@@ -7115,7 +7115,7 @@ IL_0084:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = ___1_value;
 		NullCheck(L_28);
 		NullCheck(L_26);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_26, L_27, 0, ((int32_t)(((RuntimeArray*)L_28)->max_length)));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_26, L_27, 0, ((int32_t)(((RuntimeArray*)L_28)->max_length)));
 		Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* L_29 = V_1;
 		NullCheck(L_29);
 		VirtualActionInvoker0::Invoke(20, L_29);
@@ -7502,7 +7502,7 @@ IL_00a7:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_35 = V_3;
 		NullCheck(L_34);
 		int32_t L_36;
-		L_36 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_34, L_35, 0, ((int32_t)16));
+		L_36 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_34, L_35, 0, ((int32_t)16));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_37 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(SaveGameSettings_t736159D1FCC7C70DCD2F2A9F200599F51E84754F_il2cpp_TypeInfo_var);
 		SaveGameSettings_set_EncryptionIV_m2B98BD75D99F702A9BDBDF70086F773075809F49_inline((&___3_settings), L_37, NULL);
@@ -7617,7 +7617,7 @@ IL_013e_2:
 							ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_55 = V_7;
 							NullCheck(L_55);
 							NullCheck(L_53);
-							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_53, L_54, 0, ((int32_t)(((RuntimeArray*)L_55)->max_length)));
+							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_53, L_54, 0, ((int32_t)(((RuntimeArray*)L_55)->max_length)));
 							goto IL_014b_1;
 						}
 						catch(Il2CppExceptionWrapper& e)
@@ -7863,7 +7863,7 @@ IL_0062:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26 = V_3;
 		NullCheck(L_25);
 		int32_t L_27;
-		L_27 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_25, L_26, 0, ((int32_t)16));
+		L_27 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_25, L_26, 0, ((int32_t)16));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(SaveGameSettings_t736159D1FCC7C70DCD2F2A9F200599F51E84754F_il2cpp_TypeInfo_var);
 		SaveGameSettings_set_EncryptionIV_m2B98BD75D99F702A9BDBDF70086F773075809F49_inline((&___1_settings), L_28, NULL);
@@ -8225,7 +8225,7 @@ IL_0079:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = V_2;
 		NullCheck(L_27);
 		int32_t L_29;
-		L_29 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_27, L_28, 0, ((int32_t)16));
+		L_29 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_27, L_28, 0, ((int32_t)16));
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_30 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(SaveGameSettings_t736159D1FCC7C70DCD2F2A9F200599F51E84754F_il2cpp_TypeInfo_var);
 		SaveGameSettings_set_EncryptionIV_m2B98BD75D99F702A9BDBDF70086F773075809F49_inline((&___2_settings), L_30, NULL);
@@ -8340,7 +8340,7 @@ IL_0102_2:
 							ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_48 = V_6;
 							NullCheck(L_48);
 							NullCheck(L_46);
-							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_46, L_47, 0, ((int32_t)(((RuntimeArray*)L_48)->max_length)));
+							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_46, L_47, 0, ((int32_t)(((RuntimeArray*)L_48)->max_length)));
 							goto IL_010f_1;
 						}
 						catch(Il2CppExceptionWrapper& e)
@@ -12636,7 +12636,7 @@ IL_0044:
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_27 = V_1;
 		NullCheck(L_27);
 		NullCheck(L_25);
-		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_25, L_26, 0, ((int32_t)(((RuntimeArray*)L_27)->max_length)));
+		VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_25, L_26, 0, ((int32_t)(((RuntimeArray*)L_27)->max_length)));
 		NullCheck(L_25);
 		CryptoStream_FlushFinalBlock_m21F69C3EC538EB149CFBF9183650FF3A004E0D05(L_25, NULL);
 		SaveGameStorage_t8C1527ADABBC98BC961C0AC0780D83BD3B5C271B* L_28;
@@ -12883,7 +12883,7 @@ IL_00b6_2:
 							ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_36 = V_6;
 							NullCheck(L_36);
 							NullCheck(L_34);
-							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_34, L_35, 0, ((int32_t)(((RuntimeArray*)L_36)->max_length)));
+							VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_34, L_35, 0, ((int32_t)(((RuntimeArray*)L_36)->max_length)));
 							goto IL_00c3_1;
 						}
 						catch(Il2CppExceptionWrapper& e)
@@ -12906,7 +12906,7 @@ IL_00c3_1:
 				MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_38 = V_3;
 				NullCheck(L_38);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_39;
-				L_39 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_38);
+				L_39 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_38);
 				V_2 = L_39;
 				goto IL_00dc;
 			}
@@ -13647,7 +13647,7 @@ IL_0013_1:
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = V_0;
 				int32_t L_6 = V_2;
 				NullCheck(L_4);
-				VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(34, L_4, L_5, 0, L_6);
+				VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_4, L_5, 0, L_6);
 			}
 
 IL_001c_1:
@@ -13658,7 +13658,7 @@ IL_001c_1:
 				NullCheck(L_9);
 				NullCheck(L_7);
 				int32_t L_10;
-				L_10 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(31, L_7, L_8, 0, ((int32_t)(((RuntimeArray*)L_9)->max_length)));
+				L_10 = VirtualFuncInvoker3< int32_t, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(32, L_7, L_8, 0, ((int32_t)(((RuntimeArray*)L_9)->max_length)));
 				int32_t L_11 = L_10;
 				V_2 = L_11;
 				if ((((int32_t)L_11) > ((int32_t)0)))
@@ -13670,7 +13670,7 @@ IL_001c_1:
 				MemoryStream_tAAED1B42172E3390584E4194308AB878E786AAC2* L_12 = V_1;
 				NullCheck(L_12);
 				ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13;
-				L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(40, L_12);
+				L_13 = VirtualFuncInvoker0< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* >::Invoke(41, L_12);
 				V_3 = L_13;
 				goto IL_003f;
 			}
